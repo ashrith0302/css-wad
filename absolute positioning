@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>  Absolute  positioning </title>
+<style>
+.regtext {font-family:Times; font-size:14pt; width  :600px}
+.abstext{position:  absolute;   top:25px; left:25px; font-family:Times; font-size:24pt; font-style:italic; letter-spacing:lem;
+          color:red; width:600px}
+</style>
+</head>
+<body>
+    <p class = "regtext">
+The vitamin C in oranges helps your body in lots of ways:
+
+Protects your cells from damage
+Helps your body make collagen, a protein that heals wounds and gives you smoother skin
+Makes it easier to absorb iron to fight anemia
+Boosts your immune system, your body's defense against germs
+Slows the advance of age-related macular degeneration (AMD), a leading cause of vision loss
+Helps fight cancer-causing free radicals
+     
+<span class="abstext">
+      oranges are good for health.
+</span>
+</p>
+</body>
+</html>
