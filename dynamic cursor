@@ -1,0 +1,31 @@
+<html>
+<head>
+<title> Where is the cursor? </title>
+<script>
+function findIt(evt)
+
+document.getElementById("xcoor1").value-evt.clientX; 
+document.getElementById("ycoor1").value=evt.clienty; 
+document.getElementById("xcoor2").value=evt.screenx; 
+document.getElementById("ycoor2").value=evt.screenY;
+
+</script>
+</head>
+
+<body onclick = "findIt(event)">
+<form action="">
+<p>
+Within the client area: <br />
+x: <input type="text" id = "xcoor1" size="4"/> 
+y: <input type="text" id="ycoor1" size="4" /><br /><br />
+
+Relative to the origin of the screen coordinate system: <br /> 
+x: <input type="text" id="xcoor2" size="4" />
+y: <input type="text" id="ycoor2" size="4" /></p>
+
+</form>
+
+<p><img src="https://images.icc-cricket.com/icc-web/image/private/t_q-best/v1695807309/dev/assets/default-thumbnail" alt="not found" /></p>
+
+<body>
+<html>
