@@ -1,0 +1,23 @@
+<html>
+ <head>
+  <title> Dynamic fonts </title>
+  <style type="text/css">
+  .regText {font: 16pt 'Times New Roman'}
+  .wordText {font: 30pt 'Algerian'}
+</style>
+</head>
+<body>
+   <p class= "regText"> "My life-My rules"
+    <span class = "wordText";
+      onmouseover="this.style.color = 'red';
+                   this.style.fontStyle = 'italic';
+                   this.style.fontSize = '24pt';"
+      onmouseout = "this.style.color = 'green'; 
+                    this.style.fontStyle = 'normal';
+                    this.style.fontSize = '16pt';"> 
+         ashrith telukuntla(tas)
+</span>
+    powerful people make places powerful
+</p>
+</body>
+<html>
